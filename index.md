@@ -23,6 +23,7 @@ This guide will unravel everything.
 7. [What Actually Protects These Businesses](#protection)
 8. [The Solopreneur's Decision Framework](#framework)
 9. [Final Thoughts](#conclusion)
+10. [Legal Disclaimer](#legal-disclaimer)
 
 ---
 
@@ -765,8 +766,40 @@ The only question left is: What will you build?
 
 ---
 
+## Legal Disclaimer
+
+**I am not a lawyer.** This guide is for educational purposes only and does not constitute legal advice.
+
+The information presented here is based on publicly available documentation, case studies, and general understanding of open source licenses. However:
+
+- **Software licensing is complex** and varies by jurisdiction
+- **Your specific situation** may have unique considerations I haven't covered
+- **License interpretations** can change based on new case law or legal precedents
+- **Business decisions** involving licenses should always involve legal counsel
+
+**Before making any significant business or legal decisions based on this guide:**
+- Consult with a qualified attorney who specializes in software licensing
+- Have your lawyer review any licenses you plan to use or comply with
+- Get professional advice on your specific use case and jurisdiction
+
+**What this guide IS:**
+- A starting point for understanding the open source licensing landscape
+- Context for the business decisions companies have made around licensing
+- A framework for thinking about the trade-offs between different approaches
+
+**What this guide is NOT:**
+- Legal advice for your specific situation
+- A substitute for consulting with a qualified attorney
+- An endorsement of any particular licensing strategy
+
+The case studies and examples are presented for educational purposes to illustrate how companies have navigated these issues, not as recommendations for what you should do.
+
+**When in doubt, talk to a lawyer.** The cost of getting it wrong is far higher than the cost of an hour with a good attorney.
+
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/joey_im_just_saying.png" alt="Joey - I'm just saying">
   <br>
-  <em>Look, I'm not a lawyer, okay? This is just me... saying things. Educational things. If you need real legal advice about licenses, talk to a professional. I'm just saying!</em>
+  <em>Seriously though. Get a lawyer. I'm just a founder who reads a lot.</em>
 </p>
