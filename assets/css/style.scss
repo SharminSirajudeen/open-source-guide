@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Center all images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center image captions (em tags after images) */
+img + em {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #666;
+}
