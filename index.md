@@ -72,8 +72,7 @@ Here's where it gets interesting.
 
 **AGPL (Affero GPL) - The Network Clause:**
 - Everything GPL does, PLUS
-- If you run the software as a web service (SaaS), you must make your entire application's source code available to anyone who uses it
-- Even users accessing it over a network can demand your source code
+- If you modify AGPL software and run it as a web service, you must make the modified source code available to network users. The scope of what counts as 'your code' vs 'their code' is legally murky—which is why most companies avoid AGPL entirely.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/joey_doesnt_share_code.png" alt="Joey doesn't share code">
