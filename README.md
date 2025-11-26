@@ -1,5 +1,5 @@
 ---
-title: The Open Source Lie
+title: "The Open Source Lie: A Complete Guide for Solopreneurs and First-Time Founders"
 ---
 
 # The Plot
