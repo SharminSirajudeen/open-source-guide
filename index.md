@@ -769,31 +769,15 @@ The only question left is: What will you build?
 
 **I am not a lawyer.** This guide is for educational purposes only and does not constitute legal advice.
 
-The information presented here is based on publicly available documentation, case studies, and general understanding of open source licenses. However:
+The information here is based on publicly available documentation and case studies. Software licensing is complex and varies by jurisdiction. Before making any business or legal decisions:
 
-- **Software licensing is complex** and varies by jurisdiction
-- **Your specific situation** may have unique considerations I haven't covered
-- **License interpretations** can change based on new case law or legal precedents
-- **Business decisions** involving licenses should always involve legal counsel
-
-**Before making any significant business or legal decisions based on this guide:**
-- Consult with a qualified attorney who specializes in software licensing
+- **Consult with a qualified attorney** who specializes in software licensing
 - Have your lawyer review any licenses you plan to use or comply with
-- Get professional advice on your specific use case and jurisdiction
+- Get professional advice for your specific situation
 
-**What this guide IS:**
-- A starting point for understanding the open source licensing landscape
-- Context for the business decisions companies have made around licensing
-- A framework for thinking about the trade-offs between different approaches
+This guide is a starting point for understanding the landscape—not legal advice, not a substitute for a lawyer, and not an endorsement of any particular strategy.
 
-**What this guide is NOT:**
-- Legal advice for your specific situation
-- A substitute for consulting with a qualified attorney
-- An endorsement of any particular licensing strategy
-
-The case studies and examples are presented for educational purposes to illustrate how companies have navigated these issues, not as recommendations for what you should do.
-
-**When in doubt, talk to a lawyer.** The cost of getting it wrong is far higher than the cost of an hour with a good attorney.
+**When in doubt, talk to a lawyer.** The cost of getting it wrong is far higher than the cost of proper legal counsel.
 
 ---
 
