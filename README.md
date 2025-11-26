@@ -767,7 +767,7 @@ The only question left is: What will you build?
 
 ## Legal Disclaimer
 
-**I am not a lawyer.** This guide is for educational purposes only and does not constitute legal advice.
+This guide is for educational purposes only and does not constitute legal advice.
 
 The information here is based on publicly available documentation and case studies. Software licensing is complex and varies by jurisdiction. Before making any business or legal decisions:
 
