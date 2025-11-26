@@ -29,7 +29,7 @@ Here's what confused me: If the code is free and open, how are these companies m
 
 The answer is more nuanced than anyone wants to admit.
 
-![Sheldon Cooper confused](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
+![Homer Simpson - me lose brain uh oh](https://media.giphy.com/media/l2JegpNJOgwILMjrW/giphy.gif)
 
 *Actual footage of me reading my first AGPL license*
 
@@ -73,7 +73,7 @@ Here's where it gets interesting.
 - If you run the software as a web service (SaaS), you must make your entire application's source code available to anyone who uses it
 - Even users accessing it over a network can demand your source code
 
-![Ross Geller freaking out](https://media.giphy.com/media/MEtSuIu6qu0HC/giphy.gif)
+![Joey doesn't share code](https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/joey_doesnt_share_code.png)
 
 *Me realizing AGPL means network users can demand my source code*
 
@@ -170,7 +170,7 @@ In March 2024, Redis switched to dual licensing: SSPL (Server Side Public Licens
 **The Immediate Response:**
 Within ONE WEEK of the announcement, Redis contributors banded together and created Valkey under the Linux Foundation. Major backers included AWS, Google Cloud, Oracle, Ericsson, and Snap Inc.
 
-![Tyrion Lannister I'm done](https://media.giphy.com/media/106PwpLIIXJnXi/giphy.gif)
+![Homer Simpson backing into bushes - I'm outta here](https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/im_outta_here.png)
 
 *The open source community when you pull a license rug pull*
 
@@ -300,7 +300,7 @@ Phoenix used "clean room" reverse engineering:
 **The Result:**
 Phoenix's BIOS was functionally identical to IBM's—but legally distinct. Because the programmers who wrote the code had never read IBM's code, nothing they wrote could have been "copied," even if sections happened to be similar.
 
-![Sheldon Cooper impressed](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmx4YXdrZXIxeWkyeWd4Yjd4ZWNtdHd1Y3JoM3hiaG1qOHVycWx2NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gVoBC0SuaHStq/giphy.gif)
+![Tyrion Lannister - I drink and I clone legally](https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/i_drink_and_I_clone_legally.png)
 
 *The sheer genius of the clean room technique*
 
@@ -631,9 +631,9 @@ Yes, you can legally copy almost anything. You can read their code. You can unde
 
 Even if you copy the commercial parts, even if you make it better, even if you out-execute the original—you're still playing their game. You're building in their shadow. Every feature you add, every decision you make, is defined by what they did first.
 
-![Chandler Bing thinking](https://media.giphy.com/media/ToMjGpKpJMS4aDKeyuA/giphy.gif)
+![Mr. Burns - Excellent](https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/mr_burns_excellent.png)
 
-*The existential moment every founder faces*
+*The existential moment every founder faces: choosing your strategy*
 
 **The question isn't "Can I copy this legally?"**
 
@@ -738,4 +738,6 @@ The only question left is: What will you build?
 
 ---
 
-*This guide is for educational purposes. I'm not a lawyer. For specific legal questions about licenses, consult an attorney who specializes in software licensing.*
+![Joey - I'm just saying](https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/joey_im_just_saying.png)
+
+*Look, I'm not a lawyer, okay? This is just me... saying things. Educational things. If you need real legal advice about licenses, talk to a professional. I'm just saying!*
