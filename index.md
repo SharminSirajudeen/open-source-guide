@@ -23,7 +23,6 @@ This guide will unravel everything.
 7. [What Actually Protects These Businesses](#protection)
 8. [The Solopreneur's Decision Framework](#framework)
 9. [Final Thoughts](#conclusion)
-10. [Legal Disclaimer](#legal-disclaimer)
 
 ---
 
