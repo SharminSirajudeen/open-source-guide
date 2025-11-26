@@ -784,5 +784,5 @@ This guide is a starting point for understanding the landscape—not legal advic
 <p align="center">
   <img src="https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/joey_im_just_saying.png" alt="Joey - I'm just saying">
   <br>
-  <em>Seriously though. Get a lawyer. I'm just a founder who reads a lot.</em>
+  <em>Seriously though. Get a lawyer. I just read a lot.</em>
 </p>
