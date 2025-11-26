@@ -1,5 +1,5 @@
 ---
-title: "The Open Source Founder's Guide: What the README Won't Tell You"
+title: "The Open Source Guide: What the README Won't Tell You"
 ---
 
 # The Plot
