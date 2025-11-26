@@ -765,7 +765,7 @@ The only question left is: What will you build?
 
 ---
 
-## Legal Disclaimer
+## Disclaimer
 
 This guide is for educational purposes only and does not constitute legal advice.
 
