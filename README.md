@@ -29,7 +29,7 @@ Here's what confused me: If the code is free and open, how are these companies m
 
 The answer is more nuanced than anyone wants to admit.
 
-![Sheldon Cooper confused](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHZ3cHBvZnR5ZGN4N3F5ZjBsOXN2Yzk5eWQyZGFtMnp5cWRqcjN6NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DHqth0hVQoIzS/giphy.gif)
+![Sheldon Cooper confused](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
 
 *Actual footage of me reading my first AGPL license*
 
@@ -73,7 +73,7 @@ Here's where it gets interesting.
 - If you run the software as a web service (SaaS), you must make your entire application's source code available to anyone who uses it
 - Even users accessing it over a network can demand your source code
 
-![Ross Geller freaking out](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGw3aW9hOWJkNXA0aDJxZWVwMHd4cHJpYWM3NW1vdXp1ZGRsdnpkaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEjHGr1Fhz0kyv8Ig/giphy.gif)
+![Ross Geller freaking out](https://media.giphy.com/media/MEtSuIu6qu0HC/giphy.gif)
 
 *Me realizing AGPL means network users can demand my source code*
 
@@ -170,7 +170,7 @@ In March 2024, Redis switched to dual licensing: SSPL (Server Side Public Licens
 **The Immediate Response:**
 Within ONE WEEK of the announcement, Redis contributors banded together and created Valkey under the Linux Foundation. Major backers included AWS, Google Cloud, Oracle, Ericsson, and Snap Inc.
 
-![Game of Thrones I'm out](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTkwZmRpeG93aWJmcGV6MHY2NnJyNmR1NTR1MXVqaGZ0OW9tdHB1aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fDO2Nk0ImzvvW/giphy.gif)
+![Tyrion Lannister I'm done](https://media.giphy.com/media/106PwpLIIXJnXi/giphy.gif)
 
 *The open source community when you pull a license rug pull*
 
@@ -631,7 +631,7 @@ Yes, you can legally copy almost anything. You can read their code. You can unde
 
 Even if you copy the commercial parts, even if you make it better, even if you out-execute the original—you're still playing their game. You're building in their shadow. Every feature you add, every decision you make, is defined by what they did first.
 
-![Chandler Bing contemplating](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHM3ZWUybTZoZWV3eGY5c3R0dDVzanQ2cGF3aHV5Y2JsZWcyN205NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9HQRIttS5C4Za/giphy.gif)
+![Chandler Bing thinking](https://media.giphy.com/media/ToMjGpKpJMS4aDKeyuA/giphy.gif)
 
 *The existential moment every founder faces*
 
