@@ -1,0 +1,10 @@
+title: The Open Source Lie
+description: A Complete Guide for Solopreneurs and First-Time Founders
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
