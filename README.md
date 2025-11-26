@@ -86,7 +86,8 @@ Here's where it gets interesting.
 
 **Why companies use AGPL:** It's a poison pill. Big corporations won't touch AGPL code because they don't want to open-source their proprietary systems. This forces them to either pay for a commercial license or build their own solution from scratch.
 
-**For solopreneurs:** Be extremely careful. If you use AGPL code in your SaaS, the scope of what you must open-source is legally murky and potentially broad.
+> ⚠️ **CRITICAL WARNING FOR SOLOPRENEURS:**
+> If you use AGPL code in your SaaS, the scope of what you must open-source is legally murky and potentially broad. Most startups avoid AGPL entirely to eliminate this risk.
 
 ---
 
@@ -157,9 +158,11 @@ On August 10, 2023, HashiCorp switched Terraform to the Business Source License 
 - Within weeks, the OpenTofu fork was announced
 - The Linux Foundation took OpenTofu under its wing
 - Companies like Spacelift, Env0, and Scalr began contributing to the fork
-- HashiCorp co-founder Armon Dadgar said: "We're not the first and we're not the last. There's a fundamental problem at the heart of open source—a tragedy of the commons."
 
-**The Lesson:** If a project is governed by a single company (not a foundation), the license can change at any time. Your dependency on that project is a business risk.
+> 💬 **"We're not the first and we're not the last. There's a fundamental problem at the heart of open source—a tragedy of the commons."**
+> — Armon Dadgar, HashiCorp Co-founder
+
+**⚡ The Lesson:** If a project is governed by a single company (not a foundation), the license can change at any time. Your dependency on that project is a business risk.
 
 ---
 
@@ -184,9 +187,9 @@ Within days of the announcement, Redis contributors banded together and created 
 </p>
 
 **The Data:**
-Before the relicense, Redis had nearly twice as many external contributors as internal employees. After the relicense, external contributors dropped to ZERO. Every single one moved to Valkey.
+Before the relicense, Redis had nearly twice as many external contributors as internal employees. After the relicense, external contributors dropped to **ZERO**. Every single one moved to Valkey.
 
-**The Lesson:** When you have a diverse contributor base, a "rug pull" on licensing creates an instant, well-resourced competitor.
+**⚡ The Lesson:** When you have a diverse contributor base, a "rug pull" on licensing creates an instant, well-resourced competitor.
 
 ---
 
@@ -204,7 +207,7 @@ MongoDB created the SSPL (Server Side Public License), requiring anyone offering
 **The Result:**
 The Open Source Initiative (OSI) refused to recognize SSPL as a valid open source license. MongoDB effectively became "source available." But the company went on to become extremely successful commercially.
 
-**The Lesson:** Sometimes the "right" business decision conflicts with open source ideology. MongoDB chose business survival.
+**⚡ The Lesson:** Sometimes the "right" business decision conflicts with open source ideology. MongoDB chose business survival.
 
 ---
 
@@ -222,7 +225,7 @@ Elastic changed to SSPL and their Elastic License, both restricting commercial S
 **The Community Response:**
 AWS forked Elasticsearch and created OpenSearch, placing it under the Linux Foundation. The community split.
 
-**The Lesson:** License changes have lasting consequences. Once you lose community trust, getting it back is extremely difficult—if not impossible.
+**⚡ The Lesson:** License changes have lasting consequences. Once you lose community trust, getting it back is extremely difficult—if not impossible.
 
 ---
 
@@ -236,7 +239,7 @@ Sentry, the error tracking platform, has changed licenses multiple times:
 **Why FSL?**
 Sentry felt BSL had too many variables and a 4-year conversion period that was "almost might as well be 100 years." FSL converts to Apache 2.0 or MIT after just 2 years.
 
-**The Lesson:** Even companies that care about open source are still experimenting with the right balance between openness and commercial viability.
+**⚡ The Lesson:** Even companies that care about open source are still experimenting with the right balance between openness and commercial viability.
 
 ---
 
@@ -395,10 +398,11 @@ Red Hat's core product, Red Hat Enterprise Linux (RHEL), is based on Linux—com
 
 5. **Compliance and Security:** Red Hat handles security patches, compliance certifications, and audits.
 
-**The Key Insight:**
-Red Hat CEO Jim Whitehurst explained it perfectly: "Open source is a development model, not a business model."
-
-The code is free. The expertise, reliability, and support are not.
+> 💡 **THE KEY INSIGHT:**
+> **"Open source is a development model, not a business model."**
+> — Jim Whitehurst, Red Hat CEO
+>
+> The code is free. The expertise, reliability, and support are not.
 
 ### The Controversy
 
@@ -553,12 +557,18 @@ Don't ask "Is this open source?" Ask:
 
 ### 3. Single-Vendor Projects Are Business Risks
 
-If one company controls a project you depend on, you're at their mercy. They can change the license, abandon the project, or get acquired.
+> ⚠️ **DEPENDENCY RISK ALERT:**
+> If one company controls a project you depend on, you're at their mercy. They can:
+> - Change the license overnight (like HashiCorp did)
+> - Abandon the project entirely
+> - Get acquired and shut down
+>
+> Your production system could be at risk.
 
 **Safer options:**
-- Foundation-governed projects (Linux Foundation, Apache Foundation, CNCF)
-- Projects with diverse corporate contributors
-- Projects with clear governance documents
+- ✅ Foundation-governed projects (Linux Foundation, Apache Foundation, CNCF)
+- ✅ Projects with diverse corporate contributors
+- ✅ Projects with clear governance documents
 
 ### 4. Forks Are Your Safety Net
 
@@ -580,24 +590,24 @@ The question isn't whether to participate in open source. It's how to do so with
 
 ## Quick Reference Card for Solopreneurs
 
-### Green Light (Use Freely)
-- MIT License
-- Apache 2.0
-- BSD (2-clause, 3-clause)
-- ISC License
-- Unlicense
+### 🟢 Green Light (Use Freely)
+- ✅ MIT License
+- ✅ Apache 2.0
+- ✅ BSD (2-clause, 3-clause)
+- ✅ ISC License
+- ✅ Unlicense
 
-### Yellow Light (Use With Caution)
-- LGPL (okay if linking dynamically)
-- MPL 2.0 (file-level copyleft)
-- GPL (if you're okay with copyleft)
+### 🟡 Yellow Light (Use With Caution)
+- ⚠️ LGPL (okay if linking dynamically)
+- ⚠️ MPL 2.0 (file-level copyleft)
+- ⚠️ GPL (if you're okay with copyleft)
 
-### Red Light (Read Carefully Before Using)
-- AGPL (network copyleft)
-- BSL (time-limited restrictions)
-- SSPL (extreme copyleft)
-- Any "Source Available" license
-- Any custom license
+### 🔴 Red Light (Read Carefully Before Using)
+- 🚫 AGPL (network copyleft)
+- 🚫 BSL (time-limited restrictions)
+- 🚫 SSPL (extreme copyleft)
+- 🚫 Any "Source Available" license
+- 🚫 Any custom license
 
 ### Questions to Ask
 1. What's the exact license? (Check the LICENSE file, not the README)
@@ -645,13 +655,14 @@ Even if you copy the commercial parts, even if you make it better, even if you o
   <em>The existential moment every founder faces: choosing your strategy</em>
 </p>
 
-**The question isn't "Can I copy this legally?"**
-
-The question is: **"Is this who I want to be?"**
+> 🤔 **THE REAL QUESTION:**
+> The question isn't "Can I copy this legally?"
+>
+> The question is: **"Is this who I want to be?"**
 
 ### The Two Paths
 
-**Path 1: The Clone**
+**📋 Path 1: The Clone**
 
 You read the code. You understand the patterns. You build a faster, cheaper, better version. You compete on price. You compete on features. You spend your days watching what they do so you can do it too.
 
@@ -659,7 +670,7 @@ This is a valid path. Companies have made billions this way. AWS built DocumentD
 
 If this is your path, own it. Don't apologize for it. Learn everything you can from their code, their mistakes, their successes. Then execute better than they ever could.
 
-**Path 2: The Creator**
+**✨ Path 2: The Creator**
 
 You look at the same market and ask a different question: "What haven't they built? What can't they see? What would I build if they didn't exist?"
 
@@ -707,9 +718,12 @@ If you decide to build something genuinely new, here's what I've learned:
 
 Here's the secret that applies to both paths:
 
-**Code is never the moat.**
+> 🔥 **THE ULTIMATE TRUTH:**
+> **Code is never the moat.**
+>
+> Whether you copy code or write it from scratch, the code itself is the least defensible part of any business.
 
-Whether you copy code or write it from scratch, the code itself is the least defensible part of any business. The moat is:
+The real moat is:
 
 - The community that forms around your product
 - The trust you build with users over years
