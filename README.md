@@ -1,3 +1,7 @@
+---
+title: The Open Source Lie
+---
+
 # The Plot
 
 **They say it's open source. They say it's free. They're not lying—but they're not telling you the whole truth either.**
