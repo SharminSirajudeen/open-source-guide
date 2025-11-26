@@ -1,5 +1,5 @@
 ---
-title: "The Open Source Lie: A Complete Guide for Solopreneurs and First-Time Founders"
+title: "The Open Source Founder's Guide: What the README Won't Tell You"
 ---
 
 # The Plot
@@ -198,16 +198,19 @@ Before the relicense, Redis had nearly twice as many external contributors as in
 **The Setup:**
 MongoDB was the poster child of the NoSQL movement. Open source under AGPL. Massive developer adoption.
 
-**The Problem:**
-Amazon launched DocumentDB—a MongoDB-compatible database service. They used MongoDB's API, built their own implementation, and competed directly. MongoDB got nothing.
+**The Threat:**
+MongoDB saw cloud providers coming. As their database gained popularity, they realized AWS, Google, and others could offer MongoDB-as-a-service, undercutting the company that built it.
 
-**The Switch:**
-MongoDB created the SSPL (Server Side Public License), requiring anyone offering MongoDB as a service to open-source their entire stack.
+**The Preemptive Strike:**
+In October 2018, MongoDB created the SSPL (Server Side Public License), requiring anyone offering MongoDB as a service to open-source their entire stack. This was *before* major cloud competition emerged.
 
-**The Result:**
-The Open Source Initiative (OSI) refused to recognize SSPL as a valid open source license. MongoDB effectively became "source available." But the company went on to become extremely successful commercially.
+**The Validation:**
+Three months later (January 2019), Amazon launched DocumentDB—a MongoDB-compatible database service. MongoDB's preemptive move meant AWS had to build a compatible implementation from scratch rather than simply wrapping MongoDB itself.
 
-**⚡ The Lesson:** Sometimes the "right" business decision conflicts with open source ideology. MongoDB chose business survival.
+**The Controversy:**
+The Open Source Initiative (OSI) refused to recognize SSPL as a valid open source license. MongoDB effectively became "source available." But the company went public and became extremely successful commercially.
+
+**⚡ The Lesson:** MongoDB didn't wait to be attacked—they saw the threat and moved first. Sometimes strategic paranoia saves your business.
 
 ---
 
