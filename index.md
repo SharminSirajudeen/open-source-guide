@@ -82,7 +82,7 @@ Here's where it gets interesting.
 
 **Why companies use AGPL:** It's a poison pill. Big corporations won't touch AGPL code because they don't want to open-source their proprietary systems. This forces them to either pay for a commercial license or build their own solution from scratch.
 
-**For solopreneurs:** Be extremely careful. If you use AGPL code in your SaaS, your entire codebase may need to be open-sourced.
+**For solopreneurs:** Be extremely careful. If you use AGPL code in your SaaS, the scope of what you must open-source is legally murky and potentially broad.
 
 ---
 
@@ -168,10 +168,10 @@ Redis, the insanely popular in-memory database, was open source under BSD-3 for 
 Redis (the company) had raised over $300 million and was preparing for an IPO. But cloud providers were making money on Redis while the company struggled to capture value.
 
 **The Switch:**
-In March 2024, Redis switched to dual licensing: SSPL (Server Side Public License) and their own RSAV (Redis Source Available License). Both prevent cloud providers from offering Redis as a service without paying.
+In March 2024, Redis switched to dual licensing: SSPL (Server Side Public License) and their own RSAv2 (Redis Source Available License v2). Both prevent cloud providers from offering Redis as a service without paying.
 
 **The Immediate Response:**
-Within ONE WEEK of the announcement, Redis contributors banded together and created Valkey under the Linux Foundation. Major backers included AWS, Google Cloud, Oracle, Ericsson, and Snap Inc.
+Within days of the announcement, Redis contributors banded together and created Valkey under the Linux Foundation. Major backers included AWS, Google Cloud, Oracle, Ericsson, and Snap Inc.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SharminSirajudeen/open-source-guide/master/images/im_outta_here.png" alt="Homer Simpson backing into bushes - I'm outta here">
@@ -218,10 +218,7 @@ Elastic changed to SSPL and their Elastic License, both restricting commercial S
 **The Community Response:**
 AWS forked Elasticsearch and created OpenSearch, placing it under the Linux Foundation. The community split.
 
-**The Twist:**
-In 2024, after years of fighting, Elastic returned to open source, relicensing under AGPL. They essentially admitted the SSPL strategy hadn't worked as planned.
-
-**The Lesson:** License changes have consequences that can last years. The community doesn't forget.
+**The Lesson:** License changes have lasting consequences. Once you lose community trust, getting it back is extremely difficult—if not impossible.
 
 ---
 
@@ -256,11 +253,11 @@ Research from the CHAOSS project analyzed what happens to relicensed projects an
 - Now under the Linux Foundation, actively developed
 
 **Redis → Valkey:**
-- Forked on March 28, 2024—within days of the license change
+- Forked in early 2024—within days of the license change
 - Unlike Terraform, Redis had many external contributors before the change
 - ALL external contributors from Amazon, Alibaba, Tencent, Huawei, and Ericsson stopped contributing to Redis
 - ALL of them moved to Valkey
-- Valkey 8.0 released in September 2024 with major performance improvements
+- Valkey quickly released new versions with major performance improvements
 
 **Elasticsearch → OpenSearch:**
 - Created by AWS after Elastic's license change
@@ -312,8 +309,8 @@ Phoenix's BIOS was functionally identical to IBM's—but legally distinct. Becau
 </p>
 
 **The Business Impact:**
-- Phoenix licensed its BIOS for $290,000 per manufacturer
-- They took out a $2 million insurance policy against copyright lawsuits (never needed)
+- Phoenix licensed its BIOS to major manufacturers for significant fees
+- They took out a substantial insurance policy against copyright lawsuits (never needed)
 - HP, Tandy, AT&T, and others licensed Phoenix BIOS
 - The entire PC clone industry exploded
 - IBM lost control of the PC market
@@ -480,7 +477,7 @@ Whether you're building ON open source, building IN open source, or competing WI
 | BSD | Yes | Nothing | Low |
 | LGPL | Yes | Link dynamically | Medium |
 | GPL | Yes | Must open-source your code | High |
-| AGPL | Yes | Must open-source + network users get access | Very High |
+| AGPL | Yes | Must share modified code with network users | Very High |
 | BSL | Maybe | Check additional use grant | High |
 | SSPL | Only if not SaaS | Must open-source entire stack | Very High |
 | Custom/Proprietary | Read carefully | Varies | Check |
